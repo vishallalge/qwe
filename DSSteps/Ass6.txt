@@ -1,0 +1,54 @@
+Step 1:
+	Open 1st Terminal >
+	run commands:
+		javac Bully.java
+		java Bully
+		enter your choice:-1
+		enter the number of processes :- 5
+		
+		enter your choice:-2
+
+		enter your choice:-4
+		enter the process number to down :- 4
+
+		enter your choice:-4
+		enter the process number to down :- 3
+
+		enter your choice:-2
+
+		enter your choice:-3
+		enter the process number to up :- 3
+
+		enter your choice:-5
+		enter the process number which will perform election :- 2
+
+
+		enter your choice:-6
+
+
+step 2:
+	Open 2nd Terminal >
+	run commands:
+		javac Ring.java
+		java Ring
+		enter your choice:-1
+		enter the number of processes :- 4
+		
+		enter your choice:-2
+
+		enter your choice:-4
+		enter the process number to down :- 4
+
+		enter your choice:-2
+
+		enter your choice:-3
+		enter the process number to up :- 4
+
+		enter your choice:-2
+
+
+		enter your choice:-5
+		enter the process number which will perform election :- 3
+
+
+		enter your choice:-6

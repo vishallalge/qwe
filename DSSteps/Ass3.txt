@@ -1,0 +1,9 @@
+Open terminal >
+	
+run commands:
+	export MPJ_HOME=/home/student/Desktop/DSFinal/Assignment3/mpj-v0_44
+	export PATH=$MPJ_HOME/bin:$PATH
+	javac -cp $MPJ_HOME/lib/mpj.jar ArrSum.java
+	ls
+	mpjrun.sh -np 1 ArrSum
+	mpjrun.sh -np 2 ArrSum

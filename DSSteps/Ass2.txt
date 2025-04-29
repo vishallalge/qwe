@@ -1,0 +1,15 @@
+step 1:
+	Open 1st Terminal >
+	run commands:
+		ls
+		idlj -fall ReverseModule.idl
+		javac *.java ReverseModule/*.java
+		orbd -ORBInitialPort 1050&
+		java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+		Reverse Object Created
+
+Step 2:
+	Open 2nd Terminal >
+	run commands:
+		java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
+		Enter string: student

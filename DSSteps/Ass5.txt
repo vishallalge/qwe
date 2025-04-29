@@ -1,0 +1,12 @@
+Open Terminal >
+run commands:
+	javac TokenRing.java
+	javaTokenRing
+	Enter number of nodes you want in the ring :10
+	enter sender :2
+	enter receiver:8
+	
+	do you want to send data again?if yes enter 1, if o enter 0: 1
+	enter sender:5
+	enter receiver :1
+	

@@ -1,0 +1,20 @@
+Step 1:
+
+	Open 1st Terminal >
+	run commandS:
+		javac -version
+		javac *.java
+		rmiregistry
+Step 2:
+
+	Open 2nd Terminal >
+	run commands:
+		java Server
+Step 3:
+
+	Open 3rd Terminal >
+	run commands:
+		java Client
+		enter 1st string :abc(or other )
+		enter 2nd string :xyz(or other )			
+	
