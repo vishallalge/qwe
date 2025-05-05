@@ -1,5 +1,10 @@
 Open terminal >
-	
+First extract file mpj-v0_44
+Then go open extracted file and click on bin folder
+go to the mpjrun.sh and right click (go to properties)
+the go to permissions and change all permissions to (read and write only)
+after that change the path in command below 
+
 run commands:
 	export MPJ_HOME=/home/student/Desktop/DSFinal/Assignment3/mpj-v0_44
 	export PATH=$MPJ_HOME/bin:$PATH
