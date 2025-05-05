@@ -1,0 +1,76 @@
+Step1:
+	Open NetBeans
+	Go to windows>select services>then project>then Output window
+
+Step2:
+	Go to file choose project>java web>choose web application >next
+
+Step3:
+	Name and Location
+	>Project name:Assignment7 > next
+
+step4:
+	Server and Settings
+	>server:Glassfish 4.1.1
+	java EE version: java EE 7 web >next
+
+step5:  finish
+
+Step6:
+	Right click assignment7 > new > web services... 
+	give name to web services :- MyCalculatorWebService
+	Then package name:- com.myservices
+
+	Click on Create web services from scratch then click finish
+
+step7:
+	Right click MyCalculatorWebServices
+	Click add operation :- Name: addition
+			       Return Type: double
+	then add parameters
+	num1     return type :double
+	num2     return type:double
+	click OK
+	likewise for subtraction,multiplication,division
+
+step8: 
+	then correct return0.0 instead return num1+num2 likewise for all
+
+step9:
+	Right click on Assignment7
+	click on Build
+	then click on deploy
+
+	Click on MyCalculatorWebServices
+	and click on test web services
+
+
+
+
+
+
+For Client
+
+	GO to file>new project>java web> web application>next>CalculatorWebServiceClient >next >next>finish
+	palette window open from windows taskbar
+	
+	Drag form from palette to the code body tag
+	
+	then action: CalculatorServlet
+			OK
+
+	then write code in form 
+	
+	right click on CalculatorWebServiceClient > new> web services client>Browse assignment7 >MyCalculatorWebService >finish
+
+	right click CalculatorWebServiceClient>new>Servlet enter name CalculatorServlet>next>select check box> finish
+
+	then drag that webservices reference addition subtraction multiplication division code below
+
+	paste complete code in this 
+
+	
+	then click on CalculatorWebServiceClinet the click Clean And Build
+	then go to index.html click on run file
+	
+	
